@@ -1,0 +1,54 @@
+html {
+  color: rgb(70, 70, 70);
+  font-family: Georgia,Times,Times New Roman,serif; 
+  font-size: 14px;
+  line-height: 1.3em;
+}
+
+#main-content-wrapper {
+  /* Unset from the base style sheet */
+  min-height: 0; 
+}
+
+
+#site-wrapper {
+  width: 80vw;
+  min-width: 200px;
+}
+
+#header {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+
+#header h1 {
+  display: inline-block;
+  margin-bottom: 0em;
+  text-decoration: underline;
+
+  font-size: 2em;
+}
+
+#header h3 {
+  display: inline-block;
+  margin-top: 0.2em;
+
+  font-size: 1.2em;
+}
+
+.blog-title {
+  display: block;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.blog-post {
+  padding-bottom: 2em;
+}
+
+#footer-wrapper {
+  align-self: flex-end;;
+}

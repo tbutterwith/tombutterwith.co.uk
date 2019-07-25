@@ -20,13 +20,16 @@ a, a:visited, a:hover {
   color: rgb(70, 70, 70);
 }
 
-.page {
+#page {
   width: 97vw;
+  min-height: 97vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.site-wrapper {
+#site-wrapper {
+  min-width: 100%;
   max-width: 1000px;
   margin-left: 1em;
   margin-right: 1em;
@@ -97,6 +100,7 @@ a, a:visited, a:hover {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-content: flex-end;
   padding-top: 5em;
   padding-bottom: 1em;
 }
